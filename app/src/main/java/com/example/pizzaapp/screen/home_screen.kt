@@ -79,6 +79,7 @@ fun homeScreen() {
         LazyVerticalGrid(columns =GridCells.Fixed(2) ){
             items(pizzalist){
                 showPizza(pizza = it)
+
             }
         }
 
